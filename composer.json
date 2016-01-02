@@ -1,0 +1,17 @@
+{
+    "name": "junior/php-modern",
+    "description": "Exercicios do livro PHP Moderno",
+    "authors": [
+        {
+            "name": "Junior Falcao",
+            "email": "juniorfalcao.jc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "willdurand/geocoder": "3.2.*"
+    },
+    "autoload": {
+        "psr-4": {"PHPModern\\": "src/"}
+    }
+}
